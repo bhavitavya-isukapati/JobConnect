@@ -24,8 +24,7 @@ export const submitApplication = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'jobconnect1204@gmail.com',         // Your Gmail ID
-        pass: 'yzfv hiry vmsv eyve'               // Your 16-character app password
+        
       }
     });
 
